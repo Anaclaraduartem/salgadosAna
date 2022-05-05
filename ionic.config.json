@@ -1,0 +1,7 @@
+{
+  "name": "salgadosAna",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
