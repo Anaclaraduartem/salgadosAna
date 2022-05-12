@@ -1,17 +1,35 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Salgados do bom:
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content>
+  <ion-searchbar showCancelButton="always"></ion-searchbar>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://t1.rg.ltmcdn.com/pt/posts/1/9/1/coxinha_simples_191_600.jpg">
+    </ion-thumbnail>
+    <ion-label>Coxinha</ion-label>
+    <ion-badge color="secondary">10,00</ion-badge>
+  </ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.sabornamesa.com.br/media/k2/items/cache/9b8bb3eb74bd3cd97bb3679c60950d61_XL.jpg">
+    </ion-thumbnail>
+    <ion-label>Enroladinho de Salsicha</ion-label>
+    <ion-badge color="secondary">11,00</ion-badge>
+  </ion-item>
+
+  <ion-item>
+    <ion-thumbnail slot="start">
+      <img src="https://www.sabornamesa.com.br/media/k2/items/cache/6fe1c589e796bff64c81da223cb0c48f_XL.jpg">
+    </ion-thumbnail>
+    <ion-label>Risoles</ion-label>
+    <ion-badge color="secondary">11,00</ion-badge>
+
+  </ion-item>
 </ion-content>
